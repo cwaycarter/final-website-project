@@ -15,6 +15,10 @@ Universal Styling
     border: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     background: #f5e1a9;
     height: 80px;
@@ -52,6 +56,6 @@ nav img {
 }
 
 .covidbutton {
-    font-size: 13px;
-    padding-top: 13px;
+    font-size: 12.5px;
+    padding: 14px 11px 12px;
 }
