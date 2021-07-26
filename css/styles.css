@@ -23,13 +23,12 @@ header {
 nav {
     width: 900px;
     margin: 0 auto;
-    padding-top: 8px;
     text-align: right;
+    height: 80px;
 }
 
 nav ul {
     list-style-type: none;
-    padding-top: 10px;
 }
 
 nav ul li {
@@ -39,7 +38,7 @@ nav ul li {
     background: #3b82bf;
     padding: 11px;
     border-radius: 10px;
-    margin: 0 6px;
+    margin: 20px 6px;
 }
 
 nav ul li a {
@@ -49,8 +48,10 @@ nav ul li a {
 
 nav img {
     float: left;
+    margin: 7px 0;
 }
 
 .covidbutton {
-    padding: 2px 11px;
+    font-size: 13px;
+    padding-top: 13px;
 }
