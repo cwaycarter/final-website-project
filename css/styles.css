@@ -41,6 +41,10 @@ Header
 header {
     background: #f5e1a9;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
 }
 
 nav {
@@ -109,4 +113,8 @@ Home Page Styling
     top: 107px;
     right: 202px;
     opacity: 0.9;
+}
+
+.herocontain {
+    padding-top: 50px;
 }
