@@ -126,7 +126,7 @@ Home Page Styling
 }
 
 .herocontain {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .quote {
@@ -146,8 +146,8 @@ Home Page Styling
     font-weight: bold;
 }
 
-.patron br {
-    font-weight: bold;
+.patron {
+    margin: 80px 0;
 }
 
 .line {
@@ -170,6 +170,23 @@ Home Page Styling
     font-family: 'Roboto', sans-serif;
     font-size: 33px;
     color: #499feb;
+}
+
+#slideshow {
+    max-width: 700px;
+}
+
+#slideshow div {
+    width: 100%;
+}
+
+#slideshow div img {
+    width: 100%;
+    /* height: auto; */
+}
+
+.slick {
+    margin-top: 30px;
 }
 
 
