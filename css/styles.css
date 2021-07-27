@@ -29,6 +29,7 @@ h1,
 h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 37px;
+    text-align: center;
 }
 
 
@@ -135,7 +136,7 @@ Home Page Styling
 
 .quote p {
     font-size: 26px;
-    margin: 20px;
+    margin: 30px 20px 20px;
     line-height: 190%;
 }
 
@@ -154,12 +155,20 @@ Home Page Styling
     margin: 40px 0;
 }
 
-span {
+.byom {
     background-color: #f5e1a9;
     font-weight: bold;
 }
 
 .fa-heart {
+    color: #499feb;
+}
+
+.irl {
+    letter-spacing: 0.2em;
+    padding: 0px 6px 0px 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 33px;
     color: #499feb;
 }
 
