@@ -19,6 +19,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    margin: 80px 0;
+}
+
+h1,
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 37px;
+}
+
+
+/* ==========================================
+
+Header
+
+
+==============================================*/
+
 header {
     background: #f5e1a9;
     height: 80px;
@@ -64,4 +82,26 @@ nav img {
 .covidbutton {
     font-size: 12.5px;
     padding: 14px 11px 12px;
+}
+
+
+/* =========================================================
+
+
+Home Page Styling
+
+
+=============================================================*/
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    /* visibility: hidden; */
 }
