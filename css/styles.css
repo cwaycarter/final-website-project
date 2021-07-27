@@ -17,6 +17,7 @@ Universal Styling
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 section {
@@ -125,6 +126,37 @@ Home Page Styling
 
 .herocontain {
     padding-top: 50px;
+}
+
+.quote {
+    text-align: center;
+    width: 708px;
+}
+
+.quote p {
+    font-size: 26px;
+    margin: 20px;
+    line-height: 190%;
+}
+
+.patron p:nth-child(3) {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.patron br {
+    font-weight: bold;
+}
+
+.line {
+    border: 1px solid black;
+    margin: 40px 0;
+}
+
+span {
+    background-color: #f5e1a9;
+    font-weight: bold;
 }
 
 
