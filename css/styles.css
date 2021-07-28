@@ -131,13 +131,21 @@ Home Page Styling
 
 .quote {
     text-align: center;
-    width: 708px;
+    position: relative;
 }
 
 .quote p {
-    font-size: 26px;
-    margin: 30px 20px 20px;
+    font-size: 21px;
+    margin: 30px auto;
     line-height: 190%;
+    width: 595px;
+}
+
+.quote img {
+    position: absolute;
+    top: 155px;
+    right: 90px;
+    left: 88px;
 }
 
 .patron p:nth-child(3) {
@@ -153,6 +161,7 @@ Home Page Styling
 .line {
     border: 1px solid black;
     margin: 40px 0;
+    max-width: 900px;
 }
 
 .byom {
@@ -172,6 +181,14 @@ Home Page Styling
     color: #499feb;
 }
 
+
+/* =============================================
+
+
+Slideshow styling
+
+==============================================*/
+
 #slideshow {
     max-width: 700px;
 }
@@ -182,11 +199,10 @@ Home Page Styling
 
 #slideshow div img {
     width: 100%;
-    /* height: auto; */
 }
 
 .slick {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 
