@@ -217,9 +217,12 @@ About Main Styling
 
 ==============================================*/
 
+.arm {
+    float: right;
+}
+
 .about {
     padding-top: 80px;
-    width: 830px;
 }
 
 .about p {
@@ -232,46 +235,28 @@ About Main Styling
     text-align: left;
 }
 
-.about img {
-    float: right;
-}
-
-.aboutcontain {
-    position: relative;
-}
-
-.arm {
-    float: right;
-}
-
 .partners {
-    /* position: relative; */
-    margin: 80px 0 80px 33px;
+    margin-left: 32px;
 }
 
 .partners h2 {
+    /*do you need partner div or can you move to section?*/
     margin: 80px 0 40px 160px;
-}
-
-.topright {
-    float: right;
-    position: absolute;
-    margin-left: 32px;
-}
-
-.bottomright {
-    float: right;
-    /* position: absolute; */
-    margin-left: 32px;
-    margin-right: 35px;
 }
 
 .partners img {
     margin-bottom: 32px;
 }
 
-.partners img:hover {
-    filter: hue-rotate();
+.topright {
+    position: absolute;
+    margin-left: 32px;
+}
+
+.bottomright {
+    position: absolute;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 
