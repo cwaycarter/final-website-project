@@ -21,7 +21,7 @@ body {
 }
 
 section {
-    max-width: 900px;
+    width: 900px;
     margin: 80px auto;
 }
 
@@ -205,6 +205,73 @@ Slideshow styling
 
 .slick {
     margin-top: 40px;
+}
+
+
+/* ===========================================
+
+
+About Main Styling
+
+
+
+==============================================*/
+
+.about {
+    padding-top: 80px;
+    width: 830px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 190%;
+    margin: 30px auto;
+}
+
+.about h1 {
+    text-align: left;
+}
+
+.about img {
+    float: right;
+}
+
+.aboutcontain {
+    position: relative;
+}
+
+.arm {
+    float: right;
+}
+
+.partners {
+    /* position: relative; */
+    margin: 80px 0 80px 33px;
+}
+
+.partners h2 {
+    margin: 80px 0 40px 160px;
+}
+
+.topright {
+    float: right;
+    position: absolute;
+    margin-left: 32px;
+}
+
+.bottomright {
+    float: right;
+    /* position: absolute; */
+    margin-left: 32px;
+    margin-right: 35px;
+}
+
+.partners img {
+    margin-bottom: 32px;
+}
+
+.partners img:hover {
+    filter: hue-rotate();
 }
 
 
