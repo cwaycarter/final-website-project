@@ -228,7 +228,8 @@ About Main Styling
 .about p {
     font-size: 16px;
     line-height: 190%;
-    margin: 30px auto;
+    margin: 40px auto;
+    padding-right: 120px;
 }
 
 .about h1 {
@@ -236,12 +237,12 @@ About Main Styling
 }
 
 .partners {
-    margin-left: 32px;
+    max-width: 832px;
+    margin: 0 auto;
 }
 
 .partners h2 {
-    /*do you need partner div or can you move to section?*/
-    margin: 80px 0 40px 160px;
+    margin-bottom: 40px;
 }
 
 .partners img {
@@ -256,7 +257,6 @@ About Main Styling
 .bottomright {
     position: absolute;
     margin-left: 32px;
-    margin-right: 32px;
 }
 
 
