@@ -142,7 +142,7 @@ Home Main Styling
 
 .quote p {
     font-size: 21px;
-    margin: 30px auto;
+    margin: 40px auto;
     line-height: 190%;
     width: 595px;
 }
@@ -320,6 +320,60 @@ About Main Styling
 
 .barname {
     font-size: 31px;
+}
+
+
+/* ==========================================
+
+FAQ Styling
+
+=============================================*/
+
+.faqcontainer {
+    padding-top: 80px;
+}
+
+.faqcontainer h1 {
+    margin: 40px auto;
+}
+
+details p {
+    line-height: 190%;
+}
+
+details,
+summary {
+    padding: 15px;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 21px;
+    transition: .3s;
+}
+
+summary:hover {
+    cursor: pointer;
+    color: #3b82bf;
+    transition: .3s;
+}
+
+details>summary {
+    list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "\f0da";
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 10px;
+}
+
+details[open] summary:before {
+    content: "\f0dd";
 }
 
 
