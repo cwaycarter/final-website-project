@@ -31,6 +31,7 @@ h2 {
     font-size: 37px;
     text-align: center;
     letter-spacing: 1px;
+    color: black;
 }
 
 
@@ -119,16 +120,18 @@ Home Main Styling
     position: relative;
 }
 
-
-/* .hero h1 {
-    position: absolute;
-} */
-
 .herologo {
     position: absolute;
-    top: 107px;
-    right: 202px;
+    top: 63px;
     opacity: 0.9;
+    padding: 0 76px;
+}
+
+.herologo h1 {
+    color: #f2c063;
+    font-size: 48px;
+    text-shadow: 4px 1px 6px black;
+    margin-top: 10px;
 }
 
 .herocontain {
