@@ -390,6 +390,11 @@ details[open] summary:before {
     content: "\f0dd";
 }
 
+details a {
+    text-decoration: none;
+    color: #499feb;
+}
+
 
 /* ==========================================
 
