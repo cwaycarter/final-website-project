@@ -330,6 +330,11 @@ About Main Styling
     font-size: 31px;
 }
 
+.about span a {
+    text-decoration: none;
+    color: #499feb;
+}
+
 
 /* ==========================================
 
