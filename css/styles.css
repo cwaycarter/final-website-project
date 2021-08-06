@@ -387,6 +387,120 @@ details[open] summary:before {
 }
 
 
+/* ==========================================
+
+COVID page styling
+
+
+
+=============================================*/
+
+.covidmaps h1 {
+    padding-top: 120px;
+}
+
+.statecontain {
+    padding: 250px;
+    background-image: url('../images/fl.png');
+    background-repeat: no-repeat;
+    background-size: 530px;
+    background-position: center;
+    position: relative;
+}
+
+.countrycontain {
+    padding: 240px;
+    background-image: url('../images/country.png');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    position: relative;
+}
+
+.nationalcontain {
+    padding: 322px 0 286px 0;
+    background-image: url('../images/world.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nationalcontain img {
+    position: absolute;
+    left: 149px;
+    top: 196px;
+}
+
+.mapcontainer img {
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.maptext a {
+    text-decoration: none;
+}
+
+.nationalcontain .mapmiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 277px;
+    left: 174px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.countrycontain img {
+    position: absolute;
+    right: 237px;
+    top: 275px;
+}
+
+.countrycontain .mapmiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 309px;
+    left: 637px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.statecontain .mapmiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 152px;
+    left: 569px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.statecontain img {
+    position: absolute;
+    right: 336px;
+    top: 85px;
+}
+
+.mapcontainer:hover img {
+    filter: grayscale(100%);
+    transition: .2s;
+}
+
+.mapcontainer:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.mapcontainer:hover .mapmiddle {
+    opacity: 1;
+}
+
+
 /* ===========================================
 
 
